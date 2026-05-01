@@ -1,0 +1,10 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.zienterra.ernaehrungslog",
+    "sha256_cert_fingerprints": [
+      "E2:15:77:19:52:42:08:3E:7C:13:C3:EA:AD:96:82:76:8F:BF:2C:5F:2F:73:1B:C6:11:E7:DE:9D:FB:0C:14:22"
+    ]
+  }
+}]
