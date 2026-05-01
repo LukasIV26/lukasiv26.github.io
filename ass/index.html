@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+  const params = new URLSearchParams(window.location.search);
+  const text = params.get('text');
+  if (text) window.location = 'ernaehrungslog://add?text=' + encodeURIComponent(text);
+</script>
+</head>
+<body></body>
+</html>
