@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+  const params = new URLSearchParams(window.location.search);
+  const wert = params.get('wert') || '';
+  if (wert) {
+    window.location = 'ernaehrungslog://gewicht?wert=' + encodeURIComponent(wert);
+  }
+</script>
+</head>
+<body></body>
+</html>
