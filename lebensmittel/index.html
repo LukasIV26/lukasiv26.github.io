@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+  const params = new URLSearchParams(window.location.search);
+  const name = params.get('name') || '';
+  const notizen = params.get('notizen') || '';
+  if (name) {
+    window.location = 'ernaehrungslog://lebensmittel?name=' 
+      + encodeURIComponent(name) 
+      + '&notizen=' 
+      + encodeURIComponent(notizen);
+  }
+</script>
+</head>
+<body></body>
+</html>
